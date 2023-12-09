@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Personal Portfolio Website - Easy Tutorials</title>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <h2 class = "logo" ><span>Go</span>Hustle</h2>
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fas fa-times" onclick="closeMenu()"></i>
+          </ul>
+          <i class="fas fa-bars" onclick="openMenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>Front End Developer</p>
+          <h1>
+            Hi , I'm <br />
+            <span>Mahesh</span> Rana From India
+          </h1>
+        </div>
+      </div>
+    </div>
+    <!-- Here we will Write About -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="image/b59d3e3f-04da-411b-ae45-706718ef4c3d.jpg" alt="" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              Hello there! I'm Mahesh, a passionate high school student with a
+              knack for crafting captivating digital experiences. At my young
+              age, I've delved into the fascinating world of front-end
+              development, where I channel my creativity into designing
+              user-friendly websites. What started as a hobby has now evolved
+              into a dedicated journey towards mastering the art of coding and
+              web design. I believe in the power of technology to connect people
+              and simplify their lives. Through my projects, I aim to create
+              intuitive websites that not only look visually appealing but also
+              function seamlessly. My journey as a front-end developer has been
+              both challenging and exhilarating, pushing me to constantly learn
+              and grow in this ever-evolving field. I'm thrilled to showcase my
+              skills and creations through this portfolio website. From
+              experimenting with various coding languages to learning new design
+              trends, I am passionate about every aspect of web development.
+              Whether it's crafting responsive layouts or implementing
+              interactive elements, I pour my enthusiasm and dedication into
+              every project I undertake. Besides coding, I enjoy exploring
+              different art forms, which often inspire my design choices. I'm
+              excited about the endless possibilities that lie ahead in this
+              dynamic digital landscape. Join me on this journey as I strive to
+              create meaningful and impactful web experiences that resonate with
+              people. Thank you for visiting my portfolio, and I look forward to
+              sharing my projects and ideas with you!
+            </p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>
+                  <span>HTML: Building the Foundation</span><br />With a strong
+                  grasp of HTML (HyperText Markup Language), I excel in
+                  constructing the foundation of web pages. Using semantic tags
+                  and proper structuring, I create the backbone that forms the
+                  content of websites, ensuring accessibility and readability
+                  for users and search engines alike.
+                </li>
+                <li>
+                  <span>CSS: Styling for Visual Excellence</span
+                  ><br />Proficient in CSS (Cascading Style Sheets), I wield the
+                  power of design to breathe life into web projects. From layout
+                  design to color schemes and typography, I leverage CSS to
+                  infuse creativity and aesthetics, ensuring an engaging visual
+                  experience that complements the content.
+                </li>
+                <li>
+                  <span>JavaScript: Bringing Interactivity to Life</span
+                  ><br />JavaScript is where I thrive in creating dynamic and
+                  interactive web experiences. I leverage its functionalities to
+                  add life and interactivity to websites, from creating
+                  responsive elements to implementing complex functionalities
+                  and ensuring smooth user interactions.
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>2023-24 Current</span><br />
+                  Learning right now in High School
+                </li>
+                <li>
+                  <span>2022-23</span><br />Passed 9<sup>th</sup> class With
+                  80.3%
+                </li>
+                <li>
+                  <span>2021-22</span><br />Passed 8<sup>th</sup> Class With
+                  82.3%
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- here we will Write About Services -->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Website Design and Development</h2>
+            <p>
+              Crafting Engaging Online Presence As a web developer, I specialize
+              in creating captivating websites that resonate with your audience.
+              From conceptualization to execution, I offer end-to-end website
+              design and development services tailored to your specific needs.
+              Utilizing the latest trends and technologies in HTML, CSS, and
+              JavaScript, I ensure visually appealing, responsive, and
+              user-friendly websites. Whether it's a sleek portfolio, an
+              e-commerce platform, or a company website, I bring your vision to
+              life.
+            </p>
+          </div>
+          <div>
+            <i class="fa-solid fa-crop-alt"></i>
+            <h2>Website Optimization and Maintenance</h2>
+            <p>
+              Ensuring Performance and Sustainability Beyond just creating
+              websites, I provide ongoing maintenance and optimization services
+              to ensure your online presence remains at its peak performance. I
+              prioritize site speed, security, and functionality, offering
+              regular updates, security checks, and optimization strategies.
+              Through continuous monitoring and improvement, I guarantee a
+              seamless and hassle-free experience for both you and your site
+              visitors.
+            </p>
+          </div>
+          <div>
+            <i class="fab fa-app-store"></i>
+            <h2>Custom Web Solutions and Consultation</h2>
+            <p>
+              Tailored Solutions for Your Unique Needs Understanding that every
+              project has its own requirements, I offer personalized consultancy
+              services to help you navigate the digital landscape. Whether it's
+              advice on technology stack selection, strategy formulation, or
+              custom web solutions, I provide expert guidance to ensure your
+              project's success. I collaborate closely with clients to
+              understand their goals, offering scalable and innovative solutions
+              that align with their vision and objectives.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Portfolio Section  -->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">Client Trust</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="image/1000_F_139823818_0supY6c8cnuWEd0y1sHO8JKoxKsfijXZ.jpg" alt="" />
+            <div class="layer">
+              <h3>Transparent Communication</h3>
+              <p>
+                Clarity and Openness as Foundation
+              </p>
+            </div>
+          </div>
+          <div class="work">
+            <img src="image/download (1).jpg" alt="" />
+            <div class="layer">
+              <h3>Client-Centric Approach</h3>
+              <p>
+                Understanding and Addressing Client Needs
+              </p>
+            </div>
+          </div>
+          <div class="work">
+            <img src="image/7.jpg" alt="" />
+            <div class="layer">
+              <h3> Reliability and Consistency</h3>
+              <p>
+                Delivering on Promises, Every Time
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact Information Here  -->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fas fa-paper-plane"></i> mahesh@gohustlepro.com</p>
+            <p><i class="fa-solid fa-phone-square-alt"></i> 9520796317</p>
+            <div class="social-icons">
+              <a href="https://github.com/DeveloperWide/" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i></a>
+              <a href="https://twitter.com/MaheshRana9520" target="_blank" rel="noopener"><i class="fab fa-twitter-square"></i></a>
+              <a href="https://www.instagram.com/mr7.marketing/" target="_blank" rel="noopener"><i class="fab fa-instagram" ></i></a>
+              <a href="https://www.linkedin.com/in/mahesh9520/" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i></a>
+            </div>
+            <a href="image/Resume (1).pdf" download class="btn btn2">Download CV</a>
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input
+                type="text"
+                name="Name"
+                placeholder="Your Name"
+                id=""
+                required
+              />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Your Email"
+                id=""
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <!-- Copyright Section will Come here -->
+      <div class="copyright">
+        <p>
+          Copyright &copy; Mahesh. Made With <i class="fas fa-heart"></i> By
+          Mahesh Rana
+        </p>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
