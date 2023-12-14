@@ -282,7 +282,6 @@
   .btn{
     display: block;
     margin: 50px auto;
-    width: fit-content;
     border: 1px solid #ff004f;
     padding: 14px 50px;
     border-radius: 6px;
@@ -360,7 +359,7 @@
     cursor: pointer;
   }
   
-  .copyright{
+  /* .copyright{
     width: 100%;
     text-align: center;
     padding: 25px 0;
@@ -372,14 +371,30 @@
   .copyright i{
     color: red;
   }
-  
+   */
+
+   /* Footer Styles */
+footer {
+  width: 100%;
+  text-align: center;
+  padding: 25px 0;
+  background: #262626;
+  font-weight: 300;
+  margin-top: 20px;
+  color: #fff; /* Add this line to set the text color to white */
+}
+
+footer i {
+  color: red;
+}
+
   /* Css For small Screen */
   
   nav .fas{
     display: none;
   }
   
-  @media only screen and (max-width: 600px){
+  @media only screen and (max-width: 700px){
     #header{
       background-image: url(image/8c03f7d3-dcdb-4422-827b-92b4c7871383.jpg);
       height: 50vh;
