@@ -1,7 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
-    font-family: "Poppins", sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     box-sizing: border-box;
   }
   
@@ -358,21 +358,6 @@
     margin-top: 20px;
     cursor: pointer;
   }
-  
-  /* .copyright{
-    width: 100%;
-    text-align: center;
-    padding: 25px 0;
-    background: #262626;
-    font-weight: 300;
-    margin-top: 20px;
-  }
-  
-  .copyright i{
-    color: red;
-  }
-   */
-
    /* Footer Styles */
 footer {
   width: 100%;
@@ -381,7 +366,7 @@ footer {
   background: #262626;
   font-weight: 300;
   margin-top: 20px;
-  color: #fff; /* Add this line to set the text color to white */
+  color: #fff; 
 }
 
 footer i {
